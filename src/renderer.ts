@@ -26,6 +26,16 @@
  * ```
  */
 
-import './index.css';
+import './index.css'
 
-console.log('👋 This message is being logged by "renderer.js", included via webpack');
+import { Watermark } from 'watermark-js-plus'
+
+const watermark = new Watermark({
+  content: 'hello my watermark',
+  width: 200,
+  height: 200
+})
+
+watermark.create()
+
+console.log('👋 This message is being logged by "renderer.js", included via webpack')
