@@ -1,0 +1,35 @@
+{
+  "name": "my-new-app4",
+  "productName": "my-new-app4",
+  "version": "1.0.0",
+  "description": "My Electron application description",
+  "main": ".webpack/main",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "eslint --ext .ts,.tsx ."
+  },
+  "keywords": [],
+  "author": {
+    "name": "MichaelSun",
+    "email": "zhensherlock@126.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@electron-forge/plugin-webpack": "^6.1.1",
+    "@typescript-eslint/eslint-plugin": "^5.59.2",
+    "@typescript-eslint/parser": "^5.59.2",
+    "@vercel/webpack-asset-relocator-loader": "^1.7.3",
+    "css-loader": "^6.7.3",
+    "eslint": "^8.40.0",
+    "eslint-plugin-import": "^2.27.5",
+    "fork-ts-checker-webpack-plugin": "^7.3.0",
+    "node-loader": "^2.0.0",
+    "style-loader": "^3.3.2",
+    "ts-loader": "^9.4.2",
+    "ts-node": "^10.9.1",
+    "typescript": "~4.5.4"
+  }
+}
