@@ -33,7 +33,14 @@ import { Watermark } from 'watermark-js-plus'
 const watermark = new Watermark({
   content: 'hello my watermark',
   width: 200,
-  height: 200
+  height: 200,
+  layout: 'grid',
+  gridLayoutOptions: {
+    rows: 2,
+    cols: 2,
+    gap: [0, 0],
+    matrix: [[1, 0], [0, 1]]
+  },
 })
 
 watermark.create()
