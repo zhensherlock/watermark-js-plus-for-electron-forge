@@ -40,6 +40,6 @@
   },
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0",
-    "watermark-js-plus": "^1.4.23"
+    "watermark-js-plus": "^1.4.24"
   }
 }
